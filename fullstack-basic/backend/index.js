@@ -10,27 +10,27 @@ app.get("/api/jokes" , function (req ,res) {
         {
             id : 1 , 
             title : "A joke" , 
-            content : "Thi is a joke"
+            content : "This is a joke"
         },
         {
             id : 2 , 
             title : "B joke" , 
-            content : "Thi is a joke"
+            content : "This is a joke"
         },
         {
             id : 3 , 
             title : "C joke" , 
-            content : "Thi is a joke"
+            content : "This is a joke"
         },
         {
             id : 4 , 
             title : "D joke" , 
-            content : "Thi is a joke"
+            content : "This is a joke"
         },
         {
             id : 5 , 
             title : "E joke" , 
-            content : "Thi is a joke"
+            content : "This is a joke"
         },
     ]
 
