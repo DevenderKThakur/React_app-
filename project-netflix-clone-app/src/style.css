@@ -1,0 +1,21 @@
+.no-scrollbar-x {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+  
+.no-scrollbar-x::-webkit-scrollbar {
+    height: 0; 
+}
+  
+.no-scrollbar-x {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
+.btn-black-color {
+    background-color: rgba(51,51,51,0.6);
+}
+
+.image-fade-color {
+    background-image: linear-gradient(180deg , transparent , rgba(37,37,37,0.61),#111);
+}
