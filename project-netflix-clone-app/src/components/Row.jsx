@@ -18,21 +18,6 @@ function Row ({title , fetchUrl , isLargeRow}) {
         }
         fetchData() 
     } , [fetchUrl])
-
-    // const handleClick = (item)=> {
-    //     if (trailerUrl) {
-    //         setTrailerUrl("")
-    //     }else {
-    //         movieTrailer(item?.name || "").then(url =>{
-    //             const urlParams = new URLSearchParams(new URL(url).search)
-    //             setTrailerUrl(urlParams.get("v"))
-    //         }).catch((error)=>{
-    //             console.log(error);
-    //         })
-    //     }
-    // }
-
-
     return (
         <div className="ml-5">
             <h2>{title}</h2>
@@ -45,13 +30,6 @@ function Row ({title , fetchUrl , isLargeRow}) {
                     })
                 }
             </div>
-            {/* {trailerUrl && <YouTube videoId={trailerUrl} opts={{
-                height : "390" , 
-                width : "100%" , 
-                playerVars:{
-                    autoplay : 1 ,
-                }
-            }}/>} */}
         </div>
     )
 }
